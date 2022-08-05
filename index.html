@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/variables.js"></script>
+    <script defer src="js/arrays.js"></script>
+    <title>Arrays_AF CREDITOS</title>
+</head>
+<body>
+    <h1>AF Creditos</h1>    
+        <H2>Bienvenidos... </H2>
+        <Div>Encontra tu lo que necesitas</Div>
+    
+    <article class="container">
+        <div class="parent">
+            <div>
+                <label for="selectservicio">Servicios</label>
+                <select id="selectservicio" name="selectservicio">
+                    <option value="" selected disabled>...</option> -->
+                    <option value="">Prestamos</option>
+                    <option value="">Plazos Fijos</option>
+                    <option value="">Deudas</option>
+                    <option value="">Moratorias</option>
+                </select>
+            </div>
+            <footer>
+                <button class="button button-list" onclick="listarservicio()">LISTA DE SERVICIOS</button>
+                <button class="button button-grey" onclick="agregarservicio()">AGREGAR SERVICIO</button>
+                <button class="button button-outline" onclick="buscarservicio()">BUSCAR SERVICIO</button>
+                <button class="button button-delete" onclick="quitarservicio()">QUITAR SERVICIO</button>
+            </footer>
+        </div>
+    </article>
+</body>
+</html>
